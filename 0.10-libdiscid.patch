@@ -1,0 +1,11 @@
+--- origsrc/picard-0.10/picard/disc.py	2008-07-27 10:59:00.000000000 -0500
++++ src/picard-0.10/picard/disc.py	2008-08-17 16:05:26.199712100 -0500
+@@ -104,6 +104,8 @@
+         libName = 'libdiscid.so.0'
+     elif sys.platform == 'darwin':
+         libName = 'libdiscid.1.dylib'
++    elif sys.platform == 'cygwin':
++        libName = 'cygdiscid-0.dll'
+     elif sys.platform == 'win32':
+         libName = 'discid.dll'
+     else:

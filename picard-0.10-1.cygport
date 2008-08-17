@@ -1,0 +1,9 @@
+inherit distutils
+
+DESCRIPTION="Next-generation MusicBrainz tagger"
+HOMEPAGE="http://musicbrainz.org/doc/Picard"
+SRC_URI="http://ftp.musicbrainz.org/pub/musicbrainz/${PN}/${P}.tar.gz"
+PATCH_URI="
+	mirror://portage/media-sound/${PN}/files/${PN}-0.10.0_rc1-ffmpeg-headers.patch
+	0.10-libdiscid.patch
+"
