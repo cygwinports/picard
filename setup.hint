@@ -1,4 +1,4 @@
 category: Audio
-requires: libavcodec51 libavformat52 libdiscid0 libofa0 python python-mutagen python-qt4
+requires: libavcodec52 libavformat52 libavutil50 libdiscid0 libofa0 libstdc++6 python python-mutagen python-qt4
 sdesc: "MusicBrainz audio tagger"
 ldesc: "Picard is the next generation MusicBrainz tagging application."

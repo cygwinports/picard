@@ -3,7 +3,7 @@
 @@ -104,6 +104,8 @@
          libName = 'libdiscid.so.0'
      elif sys.platform == 'darwin':
-         libName = 'libdiscid.1.dylib'
+         libName = 'libdiscid.0.dylib'
 +    elif sys.platform == 'cygwin':
 +        libName = 'cygdiscid-0.dll'
      elif sys.platform == 'win32':
