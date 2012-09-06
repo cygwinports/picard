@@ -1,0 +1,13 @@
+inherit distutils
+
+CATEGORY="Audio"
+SUMMARY="MusicBrainz audio tagger"
+DESCRIPTION="MusicBrainz Picard is the official MusicBrainz tagger. Picard
+supports the majority of audio file formats, is capable of using audio
+fingerprints (PUIDs, AcoustIDs), performing CD lookups and disc ID submissions,
+and has excellent Unicode support."
+HOMEPAGE="http://musicbrainz.org/doc/MusicBrainz_Picard"
+SRC_URI="http://ftp.musicbrainz.org/pub/musicbrainz/${PN}/${P}.tar.gz"
+PATCH_URI="0.10-libdiscid.patch"
+
+REQUIRES="libdiscid0" # ctypes

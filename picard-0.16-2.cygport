@@ -1,6 +1,0 @@
-inherit distutils
-
-DESCRIPTION="Next-generation MusicBrainz tagger"
-HOMEPAGE="http://musicbrainz.org/doc/MusicBrainz_Picard"
-SRC_URI="http://ftp.musicbrainz.org/pub/musicbrainz/${PN}/${P}.tar.gz"
-PATCH_URI="0.10-libdiscid.patch"
