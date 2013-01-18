@@ -1,5 +1,8 @@
 inherit distutils
 
+NAME="picard"
+VERSION=1.1
+RELEASE=2
 CATEGORY="Audio"
 SUMMARY="MusicBrainz audio tagger"
 DESCRIPTION="MusicBrainz Picard is the official MusicBrainz tagger. Picard
